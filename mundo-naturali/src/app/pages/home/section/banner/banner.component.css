@@ -82,3 +82,57 @@
   padding: 8px 10px;
   border-radius: 100px;
 }
+@media only screen and (max-width: 790px) and (min-width: 300px) {
+.banner_logo>img {
+  width: 100% !important;
+}
+
+.banner_bottom_tools> ul > li> a {
+  text-decoration: none;
+  font-size: 10px;
+
+}
+.banner_bottom_tools > ul > li{
+  display: inline-block;
+  padding: 0px 5px;
+}
+}
+@media only screen and (max-width: 590px) and (min-width: 300px) {
+
+  .banner_img>img {
+    height: 126px;
+  }
+  .banner__content{
+    position: absolute;
+    bottom: unset;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    right: 0;
+}
+.to_heading>h3 {
+  font-size: 18px;
+}
+
+.location>h4 {
+  font-size: 16px;
+}
+.banner_main_content {
+  justify-content: center;
+}
+.biking{
+  background: #6B922D;
+  color: #fff;
+  padding: 6px 6px;
+  border-radius: 100px;
+  font-size: 12px;
+}
+.shopping{
+  background: #ED6C09;
+  color: #fff;
+  padding: 6px 7px;
+  border-radius: 100px;
+  font-size: 12px;
+}
+  }
+

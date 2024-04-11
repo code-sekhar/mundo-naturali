@@ -50,3 +50,10 @@
   border-radius: 100px;
   top: -16px;
 }
+
+@media only screen and (max-width: 590px) and (min-width: 300px) {
+
+.banner_img>img {
+  height: 126px;
+}
+}

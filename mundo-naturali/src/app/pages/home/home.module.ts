@@ -5,6 +5,10 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home/home.component';
 import { BannerComponent } from './section/banner/banner.component';
 import { ShopComponent } from './section/shop/shop.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { NgxSliderModule } from '@angular-slider/ngx-slider';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -15,7 +19,7 @@ import { ShopComponent } from './section/shop/shop.component';
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,CarouselModule,NgxSliderModule,
   ]
 })
 export class HomeModule { }

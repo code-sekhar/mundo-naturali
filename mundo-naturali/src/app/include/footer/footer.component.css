@@ -54,3 +54,22 @@
 .inner_footer_social_media>ul>li>a.youtube:hover{
   color: #FF0000 ;
 }
+@media only screen and (max-width: 790px) and (min-width: 300px) {
+  .footer_section {
+    background: #fbfaf4;
+    height: auto;
+    text-align: center;
+    padding: 12px 0px;
+  }
+
+  .foots_cop_txt > p {
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: #959594;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+.inner_footer_social_media {
+  text-align: center;
+}
+}
