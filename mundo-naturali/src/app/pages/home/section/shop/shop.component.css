@@ -1,0 +1,156 @@
+
+.filter_wraperss>a {
+  text-decoration: none;
+  color: #6B922D;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  border: 1px solid #6B922D;
+  padding: 10px 20px;
+  border-radius: 100px;
+  width: 216px;
+  height: 46px;
+}
+.filter_wraperss > a>span>img {
+  width: 35px;
+}
+.humberger_icon {
+  margin-right: 10px;
+}
+.count_labels>h4 {
+  font-size: 15px;
+  color: #808080;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.tag_tools>ul {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+.tag_tools > ul>li {
+  display: inline-block;
+  margin: 0px 8px;
+}
+.tag_tools > ul > li>a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border: 1px solid #E6E5E5;
+  padding: 10px 16px;
+  border-radius: 100px;
+  line-height: 1;
+}
+.tools_text {
+  color: #808080;
+}
+.tools_icon {
+  color: #333333;
+  margin-right: 10px;
+  line-height: 1;
+}
+.wraper_shop_tools {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.count_labels {
+  margin-right: 30px;
+}
+.top_filter_shop_section_areas {
+  background: #FBFAF4;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+/*product price card*/
+
+.product_thumbnail>img {
+  width: 160px;
+}
+
+.product_thumbnail{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.regular_price>h4 {
+  color: #B3B3B3;
+  font-size: 16px;
+  margin-bottom: 0;
+  line-height: 1;
+}
+.inner_sale_price_wrapers>h4 {
+  font-size: 24px;
+  color: #C4034B;
+  margin-bottom: 0;
+  line-height: 1;
+  margin-right: 10px;
+}
+.inner_sale_price_wrapers {
+  display: flex;
+  align-items: center;
+}
+.tag {
+  border: 2px dotted #c4034b;
+  padding: 0px 20px;
+  height: 26px;
+  border-radius: 100px;
+  color: #c4034b;
+  font-size: 13px;
+}
+.tag>span {
+  line-height: 24px;
+  display: block;
+}
+.sale_price_wraper {
+  margin-bottom: 8px;
+}
+.title {
+  color: #4D4D4D;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  line-height: 1;
+}
+.product_category {
+  color: #4D4D4D;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.waight {
+  font-size: 15px;
+  color: #B3B3B3;
+  margin-bottom: 0;
+}
+.cart {
+  color: #6B9111;
+  border: 2px solid #6B9111;
+  height: 30px;
+  width: 30px;
+  display: block;
+  text-align: center;
+  border-radius: 100px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.cart>span {
+  line-height: 30px;
+}
+.product_cards {
+  position: relative;
+}
+.heading>h2 {
+  font-size: 18px;
+  color: #666666;
+  margin-bottom: 0;
+}
+.heading {
+  margin-bottom: 20px;
+}
+.slider_section_products{
+  margin-bottom: 80px;
+}

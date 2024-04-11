@@ -1,0 +1,84 @@
+.banner{
+  width: 100%;
+}
+
+.banner_logo>img {
+  width: 200px;
+}
+.location {
+  display: flex;
+  align-items: center;
+}
+.location>h4 {
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+.to_heading>h3 {
+  margin-bottom: 0;
+  color: #fff;
+}
+.location>h4{
+  color: #fff;
+}
+.location>span{
+  color: #fff;
+}
+.banner_main_content {
+  height: 100%;
+  display: flex;
+  align-items: safe;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+.banner__content {
+  position: absolute;
+  bottom: -54px;
+  left: 0;
+  right: 0;
+}
+.inner_banner_section {
+  position: relative;
+}
+
+.banner_bottom_tools>ul {
+  padding-left: 0px;
+  margin-bottom: 0;
+  list-style: none;
+  line-height: 60px;
+}
+.banner_bottom_tools>ul>li>a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #989898;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+.banner_bottom_tools > ul > li > a>span {
+  margin-right: 12px;
+}
+.banner_bottom_tools > ul>li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+.banner_bottom_tools {
+  text-align: center;
+}
+.banner_bars {
+  height: 60px;
+  border-bottom: 1px solid #CCCBCB;
+  border-top: 1px solid #CCCBCB;
+}
+
+.biking {
+  background: #6B922D;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 100px;
+}
+.shopping {
+  background: #ED6C09;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 100px;
+}
